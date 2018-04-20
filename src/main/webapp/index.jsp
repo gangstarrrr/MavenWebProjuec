@@ -1,11 +1,25 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
-<body>
-<h2>Hello World!</h2>
-<p>내용추가안해.....추가한다고 추가한대두 추가한다고</p>
-123456789
-<p>배치들어갔냐</p>
-<p>젠킨스 망해라</p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Servlet</title>
+	</head>
+	<body>
+	<h1 style="text-align : center;">환영못해</h1>
+	<a href="Calc">Calculator</a>
+	<form action="Calc">
+		<select name="key">
+			<option value="add">덧셈</option>
+			<option value="subtract">뺄셈</option>
+			<option value="multiply">곱셉</option>
+			<option value="divide">나눗셈</option>
+		</select>
+		<input type="number" name="a" placeholder="첫번째 숫자를 입력하세요.">
+		<input type="number" name="b" placeholder="두번째 숫자를 입력하세요.">
+		
+		<input type="submit" value="계산">
+	</form>
+	
+	</body>
 </html>
